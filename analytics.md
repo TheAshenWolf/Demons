@@ -12,16 +12,20 @@ Please note that this list may change at any time as the development progresses.
 Data collected will be used for game balance and performance optimizations.
 
 ## Hardware
-- Operating system
+- OS family
+- OS version
 - OS Architecture (x32/x64)
 - Screen resolution
 - Screen refresh rate
 - Maximum available RAM
 - CPU name/model
-- CPU core count
+- CPU frequency
+- CPU logical core count
 - GPU name/model
 - GPU available VRAM
 - GPU API version
+- GPU shader level
+- GPU supports multithreaded rendering
 
 ## General
 - Session ID (this ID is generated in a format \[unix timestamp\]-\[random GUID\], used to connect different analytic events)
@@ -61,6 +65,7 @@ Data collected will be used for game balance and performance optimizations.
 - Damage dealt
 - Damage taken
 - Currency collected
+- Skip currency accumulated
 - Run end currency
 - Green items collected
 - Blue items collected
