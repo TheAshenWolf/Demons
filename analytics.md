@@ -89,3 +89,4 @@ Data collected will be used for game balance and performance optimizations.
 - Money when entered
 - Money when left
 - Reroll count
+- Reroll money spent
