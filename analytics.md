@@ -73,6 +73,7 @@ Data collected will be used for game balance and performance optimizations.
 - Chests skipped
 - Items collected (complete inventory)
 - Item tags
+- Total healing
 
 ## Chest opened
 - Time opened (since game startup)
