@@ -32,7 +32,7 @@ Data collected will be used for game balance and performance optimizations.
 - DLCs loaded
 - Game version
 
-## Player Death
+## Player death
 - Time alive
 - Amount of hits taken
 - Amount of raw damage taken
@@ -84,10 +84,15 @@ Data collected will be used for game balance and performance optimizations.
 - Skip currency amount
 - Chosen reward
 
-## Shop Left
+## Shop left
 - Time spent in shop
 - Items bought
 - Money when entered
 - Money when left
 - Reroll count
 - Reroll money spent
+
+## NPC too far
+- NPC name
+- NPC state
+- Room name
