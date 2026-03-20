@@ -3,9 +3,8 @@
 > ### Disclaimer
 > 
 > This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect any personal data that could be traced back to you.
-> If you want to know the details of what is being collected, the comprehensive list can be found in the #links channel on Discord.
-> 
-> As this app is in development, enabling the analytics would be much appreciated.
+> If you want to know the details of what is being collected, the comprehensive list can be found in the #news channel on Discord (post about getting access).
+
 
 This is a comprehensive list of all analytic data that is being collected.
 Please note that this list may change at any time as the development progresses.
