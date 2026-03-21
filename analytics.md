@@ -10,6 +10,8 @@ This is a comprehensive list of all analytic data that is being collected.
 Please note that this list may change at any time as the development progresses.
 Data collected will be used for game balance and performance optimizations.
 
+Along with analytics comprised of the following list, Player.log is also attached. This file contains the engine log.
+
 ## Hardware
 - OS family
 - OS version
