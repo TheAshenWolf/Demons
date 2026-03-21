@@ -95,3 +95,22 @@ Data collected will be used for game balance and performance optimizations.
 - NPC name
 - NPC state
 - Room name
+
+## NPC Killed
+- Name
+- Game Difficulty
+- Damage dealt to player
+- Damage dealt to other NPCs
+- Amounts of hits caused by different attack types
+- Damage dealt per attack type
+- Gold reward
+- Amount of hits received
+- Amount of hits scored
+- Room name
+- Coordinates of the spawnpoint
+- Death coordinates
+- Causer of the final blow
+- First engagement time
+- Death time
+- Raw damage taken
+- True damage taken
