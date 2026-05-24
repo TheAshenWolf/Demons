@@ -1,5 +1,8 @@
 # Analytics
 
+> ⚠️ Analytics are currently being reworked and this list may not represent everything with 100% accuracy.
+> - 2026-05-23
+
 > ### Disclaimer
 > 
 > This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect any personal data that could be traced back to you.
