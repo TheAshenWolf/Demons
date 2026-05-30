@@ -1,7 +1,6 @@
 # Analytics
 
-> ⚠️ Analytics are currently being reworked and this list may not represent everything with 100% accuracy.
-> - 2026-05-23
+> **Last updated:** 2026-05-30
 
 > ### Disclaimer
 > 
@@ -16,106 +15,115 @@ Data collected will be used for game balance and performance optimizations.
 Along with analytics comprised of the following list, Player.log is also attached. This file contains the engine log.
 
 ## Hardware
-- OS family
-- OS version
-- OS Architecture (x32/x64)
-- Screen resolution
-- Screen refresh rate
-- Maximum available RAM
-- CPU name/model
-- CPU frequency
-- CPU logical core count
-- GPU name/model
-- GPU available VRAM
-- GPU API version
-- GPU shader level
-- GPU supports multithreaded rendering
+- OperatingSystem
+- OperatingSystemVersion
+- OperatingSystemArchitecture
+- Resolution
+- RefreshRate
+- AvailableMemory
+- CpuModel
+- CpuFrequency
+- CpuCoreCount
+- GpuModel
+- GpuVram
+- GpuApiVersion
+- GpuShaderLevel
+- GpuMultithreadedRendering
 
 ## General
 - Session ID (this ID is generated in a format \[unix timestamp\]-\[random GUID\], used to connect different analytic events)
-- DLCs loaded
-- Game version
+- GameVersion
+- UnityVersion
 
 ## Player death
-- Time alive
-- Amount of hits taken
-- Amount of raw damage taken
-- Time since previous hit
-- Last hit damage
-- Last hit raw damage
-- Damage taken since max health
-- Killed by (NPC)
-- Killed by (Attack)
-- Killed by (Attack Type)
-- Direction of the fatal blow
-- Last grounded position
-- Last grounded time
-- Player rotation
-- Player position
-- Player velocity
-- Can revive
+- Alive Since
+- LastHitTime
+- LastHitDamage
+- LastHitRawDamage
+- DamageSinceMaxHealth
+- KilledBy
+- KilledByAttack
+- AttackType
+- PlayerRotation
+- AttackDirection
+- CanRevive
+- RoomName
 
 ## End of run
-- Is loaded game
-- Rng seed
-- Start time (since game startup)
-- End time (since game startup)
+- IsLoadedGame
+- RunRngSeed
+- StartupTime
+- EndTime
 - Success
-- Rooms cleared
-- Enemies killed
-- Minibosses killed
-- Bosses killed
-- Chests opened
-- Damage dealt
-- Damage taken
-- Currency collected
-- Skip currency accumulated
-- Run end currency
-- Green items collected
-- Blue items collected
-- Red items collected
-- Chests skipped
-- Items collected (complete inventory)
-- Item tags
-- Total healing
+- RoomsCleared
+- EnemiesKilled
+- MinibossesKilled
+- BossesKilled
+- ChestsOpened
+- DamageDealt
+- DamageTaken
+- CurrencyCollected
+- SkipCurrencyAccumulated
+- EndCurrency
+- GreenItemsCollected
+- BlueItemsCollected
+- RedItemsCollected
+- OpenChestSkips
+- ClosedChestSkips
+- ItemsCollected
+- TagDistribution
+- TotalHealing
+- HighestSingleHeal
+- ItemsPurchased
+- ShopRerolls
+- HighestDamageDealt
+- HighestDamageTaken
+- HighestRawDamageDealt
+- TotalRawDamageDealt
+- HighestRawDamageTaken
+- TotalRawDamageTaken
 
 ## Chest opened
-- Time opened (since game startup)
-- Loot seed
-- First item
-- Second item
-- Third item
-- Skip currency amount
-- Chosen reward
+- TimeOpened
+- LootSeed
+- Item1
+- Item2
+- Item3
+- SkipRewardAmount
+- RewardPicked
+- OpenedManually
 
 ## Shop left
-- Time spent in shop
-- Items bought
-- Money when entered
-- Money when left
-- Reroll count
-- Reroll money spent
+- TimeEntered
+- TimeLeft
+- ItemsBought
+- MoneyWhenEntered
+- MoneyWhenLeft
+- RerollCount
+- RerollCurrencySpent
 
 ## NPC too far
-- NPC name
-- NPC state
-- Room name
+- NpcName
+- State
+- RoomName
+- DespawnLocation
 
 ## NPC Killed
 - Name
-- Game Difficulty
-- Damage dealt to player
-- Damage dealt to other NPCs
-- Amounts of hits caused by different attack types
-- Damage dealt per attack type
-- Gold reward
-- Amount of hits received
-- Amount of hits scored
-- Room name
-- Coordinates of the spawnpoint
-- Death coordinates
-- Causer of the final blow
-- First engagement time
-- Death time
-- Raw damage taken
-- True damage taken
+- Difficulty
+- DamageDealtToPlayer
+- DamageDealtToNpcs
+- HitTypeCounts
+- DamageDealtPerType
+- GoldReward
+- HitsReceived
+- HitsScored
+- RoomName
+- SpawnPointCoordinates
+- DeathCoordinates
+- DeathCauser
+- FirstEngageTime
+- DeathTime
+- RawDamageTaken
+- TrueDamageTaken
+- KilledByAttackType
