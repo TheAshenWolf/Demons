@@ -29,6 +29,7 @@ Along with analytics comprised of the following list, Player.log is also attache
 - GpuApiVersion
 - GpuShaderLevel
 - GpuMultithreadedRendering
+- SystemLanguage
 
 ## General
 - Session ID (this ID is generated in a format \[unix timestamp\]-\[random GUID\], used to connect different analytic events)
@@ -46,7 +47,7 @@ Along with analytics comprised of the following list, Player.log is also attache
 - AttackType
 - PlayerRotation
 - AttackDirection
-- CanRevive
+- RevivesLeft
 - RoomName
 
 ## End of run
@@ -92,6 +93,7 @@ Along with analytics comprised of the following list, Player.log is also attache
 - SkipRewardAmount
 - RewardPicked
 - OpenedManually
+- RoomName
 
 ## Shop left
 - TimeEntered
@@ -107,6 +109,7 @@ Along with analytics comprised of the following list, Player.log is also attache
 - State
 - RoomName
 - DespawnLocation
+- TimeSinceStartup
 
 ## NPC Killed
 - Name
