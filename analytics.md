@@ -130,3 +130,21 @@ Along with analytics comprised of the following list, Player.log is also attache
 - RawDamageTaken
 - TrueDamageTaken
 - KilledByAttackType
+
+## Performance
+- Time
+- CpuFrameTimeMs
+- CpuMainThreadFrameTimeMs
+- CpuMainThreadPresentWaitTimeMs
+- CpuRenderThreadFrameTimeMs
+- GpuFrameTimeMs
+- HeightScale
+- WidthScale
+- SyncInterval
+- TotalAllocatedMemoryMb
+- TotalReservedMemoryMb
+- TotalUnusedReservedMemoryMb
+- MonoUsedSizeMb
+- MonoHeapSizeMb
+- AllocatedGraphicsMemoryMb
+- SmoothDeltaMs
