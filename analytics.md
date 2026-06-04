@@ -148,3 +148,6 @@ Along with analytics comprised of the following list, Player.log is also attache
 - MonoHeapSizeMb
 - AllocatedGraphicsMemoryMb
 - SmoothDeltaMs
+- AverageFps
+- AverageFpsOnePercent
+- AverageFpsZeroOnePercent
