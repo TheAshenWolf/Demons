@@ -1,11 +1,15 @@
 # Analytics
 
-> **Last updated:** 2026-05-30
+> **Last updated:** 2026-10-29
 
 > ### Disclaimer
+
+> This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect any personal data.
+> If you want to know the details of what is being collected, the comprehensive list can be found on [GitHub](https://github.com/TheAshenWolf/Demons/blob/development/analytics.md).
 > 
-> This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect any personal data that could be traced back to you.
-> If you want to know the details of what is being collected, the comprehensive list can be found in the #news channel on Discord (post about getting access).
+> The data is sent using a Discord webhook. You can withdraw your consent at any later time in the Settings -> General.
+> 
+> As this app is in development, enabling the analytics would be much appreciated.
 
 
 This is a comprehensive list of all analytic data that is being collected.
@@ -151,3 +155,29 @@ Along with analytics comprised of the following list, Player.log is also attache
 - AverageFps
 - AverageFpsOnePercent
 - AverageFpsZeroOnePercent
+
+## Boss Killed
+- BossName
+- TimeBossSpawned
+- TimeBossKilled
+- BossHitsTaken
+- BossDamageTaken
+- BossRawDamageTaken
+- PlayerHitsTaken
+- PlayerRawDamageTaken
+- DamagedByEnvironment
+- KilledByEnvironment
+
+## Player Fell Out
+- LastGroundedPosition
+- LastGroundedTime
+- PlayerVelocity
+- PlayerPosition
+- RoomName
+- FallOutTime
+
+## Session Quit
+- SessionStart
+- SessionEnd
+- RunsTotal
+- AchievementsObtained
