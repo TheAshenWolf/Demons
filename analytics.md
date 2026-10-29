@@ -11,6 +11,7 @@
 > 
 > As this app is in development, enabling the analytics would be much appreciated.
 
+Discord Privacy Policy can be found (here)[https://discord.com/privacy/]. 
 
 This is a comprehensive list of all analytic data that is being collected.
 Please note that this list may change at any time as the development progresses.
