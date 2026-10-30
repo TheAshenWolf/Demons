@@ -1,13 +1,13 @@
 # Analytics
 
-> **Last updated:** 2026-10-29
+> **Last updated:** 2026-10-30
 
 > ### Disclaimer
-
-> This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect any personal data.
+> 
+> This game uses Analytics. All data collected is related to performance, gameplay, and compatibility. We do not collect anything that identifies you directly, such as names or account ids.
 > If you want to know the details of what is being collected, the comprehensive list can be found on [GitHub](https://github.com/TheAshenWolf/Demons/blob/development/analytics.md).
 > 
-> The data is sent using a Discord webhook. You can withdraw your consent at any later time in the Settings -> General.
+> The data is sent using a Discord webhook. You can withdraw your consent at any later time in Settings -> General.
 > 
 > As this app is in development, enabling the analytics would be much appreciated.
 
