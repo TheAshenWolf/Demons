@@ -168,6 +168,7 @@ Along with analytics comprised of the following list, Player.log is also attache
 - PlayerRawDamageTaken
 - DamagedByEnvironment
 - KilledByEnvironment
+- HitTypeCounts
 
 ## Player Fell Out
 - LastGroundedPosition
